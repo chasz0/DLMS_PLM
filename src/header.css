@@ -1,0 +1,27 @@
+.header{
+    min-width: 100%;
+    min-height: 190px;
+    background-color: #FFFFFF;
+
+    color: #BF9B30;
+    top: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.header img{
+    padding-left: 10px;
+    max-width: 189px;
+    max-height: 190px;
+}
+
+.header .content h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+.header .content h2{
+    margin-top: -15px;
+    font-size: 24px;
+}

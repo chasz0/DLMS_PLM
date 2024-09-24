@@ -1,0 +1,21 @@
+#root {
+  max-width: 1440px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("assets/plm_background.jpg");
+  background-color: rgba(177,187,251,0.5);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block !important;
+}
+
+.article{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+

@@ -1,0 +1,41 @@
+.navigation{
+    background-color: #323ABD;
+    color: #FFFFFF;
+    min-height: 80px;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation h2{
+    padding-left: 75px;
+}
+
+.navigation .right{
+    display: flex;
+    gap: 40px;
+    padding-right: 75px;
+}
+
+/*dropdown*/
+
+.navigation button{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;   
+    transition: .5s ease-in;
+}
+
+.navigation button:hover{
+    border: none;   
+    background-color: #181d7c;
+    transition: .5s ease-in;
+}
+
+.navigation button:focus{
+    border: none;
+    outline: none;
+}

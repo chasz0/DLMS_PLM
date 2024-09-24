@@ -1,0 +1,52 @@
+.menu{
+    margin-top: 54px;
+    width: 346px;
+    height: 580px;
+    background-color: #323ABD;
+    color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.menu .title{
+    padding-left: 28px;
+    padding-top: 15px;
+}
+
+.menu ul{
+    list-style-type:  none;
+    padding-left: 12px;
+}
+.menu ul li{
+    position: relative;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 73px;
+    width: 90%;
+    border-radius: 100px;
+    transition: .4s ease-out;
+}
+
+.menu ul li:not(:last-child):after {
+    content: " ";
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 1px;
+    width: 80%;
+    transform: translate(-50%, 0);
+  }
+
+.menu ul .active{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+
+.menu ul li:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
